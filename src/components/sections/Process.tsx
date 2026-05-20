@@ -21,7 +21,7 @@ export default function Process() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             className="font-heading text-4xl md:text-5xl font-bold mb-6"
           >
             Practical Innovation That <span className="text-gradient-blue">Powers Systems</span>
@@ -29,7 +29,7 @@ export default function Process() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.1 }}
             className="text-lg text-bg-black/70"
           >
@@ -47,7 +47,7 @@ export default function Process() {
                 key={step.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
+                viewport={{ once: true, margin: "-10px" }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="relative glass rounded-2xl overflow-hidden border border-white/5 hover:border-neon-aqua/30 transition-all duration-300 group flex flex-col"
               >

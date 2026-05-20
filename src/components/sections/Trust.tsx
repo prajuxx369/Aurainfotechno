@@ -21,7 +21,7 @@ export default function Trust() {
           <motion.div 
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ duration: 0.8 }}
             className="lg:w-1/3"
           >
@@ -39,7 +39,7 @@ export default function Trust() {
                 key={stat.label}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
+                viewport={{ once: true, margin: "-10px" }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="flex flex-col items-start lg:items-center justify-center"
               >

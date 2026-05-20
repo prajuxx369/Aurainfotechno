@@ -24,7 +24,7 @@ export default function Services() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             className="font-heading text-4xl md:text-5xl font-bold mb-6"
           >
             Enterprise-Grade <span className="text-gradient-blue">Services</span>
@@ -32,7 +32,7 @@ export default function Services() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.1 }}
             className="text-lg text-bg-black/70 max-w-2xl"
           >
@@ -46,7 +46,7 @@ export default function Services() {
               key={service.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ duration: 0.5, delay: idx * 0.05 }}
               className="group glass rounded-2xl overflow-hidden hover:bg-white/[0.05] transition-all duration-300 border border-white/5 hover:border-white/10 flex flex-col"
             >

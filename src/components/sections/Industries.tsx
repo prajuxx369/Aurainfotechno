@@ -42,7 +42,7 @@ export default function Industries() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             className="font-heading text-4xl md:text-5xl font-bold mb-6"
           >
             Industries We <span className="text-gradient">Serve</span>
@@ -50,7 +50,7 @@ export default function Industries() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.1 }}
             className="text-lg text-accent-white/70"
           >
@@ -64,7 +64,7 @@ export default function Industries() {
               key={ind.name}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, margin: "-50px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ duration: 0.4, delay: idx * 0.05 }}
               className="group flex flex-col items-center justify-center p-6 glass rounded-2xl border border-white/5 hover:bg-white/[0.04] hover:border-white/10 transition-all duration-300"
             >
@@ -80,7 +80,7 @@ export default function Industries() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
           >
             <h3 className="font-heading text-2xl md:text-3xl font-bold mb-4 text-neon-aqua">Finance Industry Expertise</h3>
             <p className="text-accent-white/70 mb-8">
@@ -99,7 +99,7 @@ export default function Industries() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.2 }}
           >
             <h3 className="font-heading text-2xl md:text-3xl font-bold mb-4 text-neon-magenta">Healthcare Industry Expertise</h3>

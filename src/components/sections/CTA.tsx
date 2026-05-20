@@ -22,7 +22,7 @@ export default function CTA() {
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-accent-white"
           >
             Build a Digital Platform That <span className="text-gradient">Moves Your Business Forward</span>
@@ -31,7 +31,7 @@ export default function CTA() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-accent-white/70 mb-10 max-w-3xl mx-auto"
           >
@@ -41,7 +41,7 @@ export default function CTA() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ delay: 0.2 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >

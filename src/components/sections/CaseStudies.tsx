@@ -52,7 +52,7 @@ export default function CaseStudies() {
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               className="font-heading text-4xl md:text-5xl font-bold mb-4"
             >
               Digital Products, Platforms & <span className="text-neon-magenta">Transformation Success Stories</span>
@@ -60,7 +60,7 @@ export default function CaseStudies() {
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ delay: 0.1 }}
               className="text-lg text-bg-black/70"
             >

@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-10px" }}
             transition={{ duration: 0.8 }}
             className="lg:w-1/2 relative"
           >
@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               className="font-heading text-4xl md:text-5xl font-bold mb-6"
             >
               Why Enterprises Choose <span className="text-gradient">AuraInfotechno</span>
@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ delay: 0.1 }}
               className="text-lg text-accent-white/70 mb-10"
             >
