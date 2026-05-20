@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { ArrowRight, TrendingUp, Zap, Search } from "lucide-react";
 import Link from "next/link";
 
@@ -43,12 +43,6 @@ const caseStudies = [
 
 export default function CaseStudies() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"],
-  });
-
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-20%"]);
 
   return (
     <section ref={containerRef} className="py-24 relative overflow-hidden bg-white text-bg-black">
@@ -79,12 +73,12 @@ export default function CaseStudies() {
         </div>
       </div>
 
-      <div className="overflow-hidden py-10">
-        <motion.div style={{ x }} className="flex gap-6 md:gap-8 px-4 md:px-6 w-max">
+      <div className="overflow-x-auto py-10 snap-x snap-mandatory hide-scrollbar">
+        <div className="flex gap-6 md:gap-8 px-4 md:px-6 w-max mx-auto md:mx-0">
           {caseStudies.map((study) => (
             <div 
               key={study.id} 
-              className={`relative w-[85vw] md:w-[600px] shrink-0 rounded-3xl overflow-hidden glass border border-white/10 bg-gradient-to-br ${study.bgClass} p-8 md:p-10`}
+              className={`relative w-[85vw] md:w-[600px] shrink-0 snap-center rounded-3xl overflow-hidden glass border border-white/10 bg-gradient-to-br ${study.bgClass} p-8 md:p-10`}
             >
               <div className="mb-6 flex items-center gap-3">
                 <span className="text-sm font-bold tracking-widest text-neon-aqua uppercase">
@@ -119,7 +113,7 @@ export default function CaseStudies() {
               </Link>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -65,7 +65,7 @@ export default function Hero() {
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-white">
+    <section ref={containerRef} className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden pt-20 bg-white">
       {/* Animated Background */}
       <div ref={bgRef} className="absolute inset-0 z-0">
         <div className="absolute top-1/4 -left-1/4 w-[50vw] h-[50vw] rounded-full bg-primary-royal/20 blur-[120px] mix-blend-screen animate-pulse" />
