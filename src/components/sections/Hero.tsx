@@ -82,11 +82,14 @@ export default function Hero() {
 
           <h1
             ref={textRef}
-            className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8 text-bg-black"
+            className="font-heading text-5xl sm:text-6xl md:text-[4.5rem] lg:text-[5.5rem] font-black tracking-tighter mb-8 text-bg-black leading-[1.1] drop-shadow-sm"
             style={{ perspective: "1000px" }}
           >
             Engineering Future-Ready <br className="hidden md:block" />
-            <span className="text-gradient-blue">Digital Platforms</span> for Web, Mobile & Enterprise Growth
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-navy via-[#3b82f6] to-[#8b5cf6] drop-shadow-lg">Digital Platforms</span> <br />
+            <span className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-bold tracking-tight text-bg-black/90 mt-2 block">
+              for Web, Mobile & Enterprise Growth
+            </span>
           </h1>
 
           <p
