@@ -82,7 +82,7 @@ export default function Hero() {
 
           <h1
             ref={textRef}
-            className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 text-bg-black"
+            className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8 text-bg-black"
             style={{ perspective: "1000px" }}
           >
             Engineering Future-Ready <br className="hidden md:block" />
